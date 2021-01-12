@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="position-search">
+      <div class="your-city">
+        <p>Your City</p>
+        <i class="fas fa-map-marker-alt" title="actual position"></i>
+      </div>
+      <div class="another-city">
+        <p>Another City :</p>
+        <input type="text" class="search-box" placeholder="Search " />
+      </div>
+    </div>
+    <div class="location">
+      <h1 class="location-timezone">Timezone</h1>
+      <div class="icon">
+        <img src="icons/unknown.png" alt="" />
+      </div>
+    </div>
+
+    <div class="temp">
+      <div class="degree-section">
+        <h2 class="temp-degree">-</h2>
+        <span>°C</span>
+      </div>
+      <div class="temp-description">Unknown</div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
