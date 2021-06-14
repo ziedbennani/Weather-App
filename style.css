@@ -1,91 +1,91 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
-  font-family: sans-serif;
-  color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 .location,
 .temp {
-  height: 30vh;
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .temp {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .degree-section {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 .degree-section span {
-  margin: 10px;
-  font-size: 30px;
+    margin: 10px;
+    font-size: 30px;
 }
 .degree-section h2 {
-  font-size: 40px;
+    font-size: 40px;
 }
 .temp-description {
-  font-size: 20px;
-  font-style: italic;
+    font-size: 20px;
+    font-style: italic;
 }
 .position-search {
-  width: 85%;
-  display: flex;
-  justify-content: space-evenly;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .actual {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 p {
-  margin: 5px;
-  color: aliceblue;
+    margin: 5px;
+    color: aliceblue;
 }
 .search-box {
-  outline: none;
-  border: none;
-  padding: 5px;
-  cursor: text;
-  justify-content: flex-end;
-  color: rgba(255, 255, 255, 0.822);
-  font-size: 17px;
-  font-family: sans-serif;
-  background-color: rgba(255, 255, 255, 0.219);
-  width: 130px;
-  border-radius: 3px;
-  text-align: center;
+    outline: none;
+    border: none;
+    padding: 5px;
+    cursor: text;
+    justify-content: flex-end;
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.219);
+    width: 130px;
+    border-radius: 3px;
+    text-align: center;
 }
 .fas {
-  color: white;
-  font-size: 25px;
-  margin-left: 5px;
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
 }
-.your-city:hover {
-  text-shadow: 0px 0px 5px white;
-  cursor: pointer;
+.position:hover {
+    text-shadow: 0px 0px 5px white;
+    cursor: pointer;
 }
 
 ::-webkit-input-placeholder {
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.781);
-  text-align: center;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.781);
+    text-align: center;
 }
-.your-city,
+.position,
 .another-city {
-  display: flex;
+    display: flex;
 }
